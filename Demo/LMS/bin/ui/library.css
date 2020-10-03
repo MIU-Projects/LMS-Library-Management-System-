@@ -1,0 +1,150 @@
+.root { 
+    -fx-accent: #1e74c6;
+    -fx-focus-color: -fx-accent;
+    -fx-base: #373e43;
+    -fx-control-inner-background: derive(-fx-base, 35.0%);
+    -fx-control-inner-background-alt: -fx-control-inner-background ;
+    -fx-border-radius: 5px;
+}
+
+.label{
+    -fx-text-fill: lightgray;
+}
+
+.text-field {
+    -fx-prompt-text-fill: gray;
+    -fx-border-color: #DAA520;
+}
+
+.text-field:hover{
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+}
+
+.titulo{
+    -fx-font-weight: bold;
+    -fx-font-size: 18.0px;
+}
+
+.button{
+    -fx-focus-traversable: false;
+    -fx-border-color: #DAA520;
+}
+
+.text-area{
+    -fx-border-color: #DAA520;
+}
+
+
+.button:hover{
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+}
+
+.separator *.line { 
+    -fx-background-color: #3C3C3C;
+    -fx-border-style: solid;
+    -fx-border-width: 1.0px;
+}
+
+.scroll-bar{
+    -fx-background-color: derive(-fx-base,45.0%)
+}
+
+.button:default {
+    -fx-base: -fx-accent ;
+} 
+
+.table-view{
+    /*-fx-background-color: derive(-fx-base, 10%);*/
+    -fx-selection-bar-non-focused: derive(-fx-base, 50.0%);
+}
+
+.table-view .column-header .label{
+    -fx-alignment: CENTER_LEFT;
+    -fx-font-weight: none;
+}
+
+.list-cell:even,
+.list-cell:odd,
+.table-row-cell:even,
+.table-row-cell:odd{    
+    -fx-control-inner-background: derive(-fx-base, 15.0%);
+}
+
+.list-cell:empty,
+.table-row-cell:empty {
+    -fx-background-color: transparent;
+}
+
+.list-cell,
+.table-row-cell{
+    -fx-border-color: transparent;
+    -fx-table-cell-border-color:transparent;
+}
+
+.label{
+	-fx-font-size: 14.0px;
+	-fx-font-weight: bold;
+}
+
+
+
+
+
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0;
+}
+
+.tab-pane
+{
+    -fx-tab-min-width:90px;
+}
+
+.tab{
+    -fx-background-insets: 0 1 0 1,0,0;
+}
+.tab-pane .tab
+{
+    -fx-background-color: #DCDCDC;
+}
+
+.tab-pane .tab:selected
+{
+    -fx-background-color: #3c3c3c;
+}
+
+.tab .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: #828282;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: #96b946;
+}
+
+
+
+
+.dialog-pane {
+    -fx-background-color: #f9d900;
+
+}
+
+
+
+
+.dialog-pane .button { 
+    -fx-background-color: -fx-base; 
+    -fx-text-fill: #000000; 
+}
+
+.dialog-pane .button:default {
+    -fx-background-color: #000000;
+}
+
+
